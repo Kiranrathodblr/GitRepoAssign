@@ -1,4 +1,4 @@
-##This is the git tutorial Day2 class
+##This is the git tutorial Day2 class on developer branch
 
 …or create a new repository on the command line
 echo "# GitRepoAssign" >> README.md
@@ -14,6 +14,8 @@ git branch -M main
 git push -u origin main
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+rm -f .git/index.lock
 
 ##Comit cmd
 git commit -a
